@@ -1,0 +1,800 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   
+      <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Karla:400,400i,700,700i|Rochester" rel="stylesheet">
+      <!--Import materialize.css-->      
+      <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>      
+      <link href="style.css" rel="stylesheet">     
+      <link href="heart.css" rel="stylesheet">  
+    </head>
+    <body>
+
+       <!--  Main Nabar -->
+      <div class="navbar-fixed">
+          <div class="Point">
+              <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          </div>
+      <nav>
+        <div class="nav-wrapper container">
+          <a href="index.html" class="brand-logo"><h1 class="StyleHd1">Bride & Groom</h1></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <div class="right hide-on-med-only bold">
+            Welcome! User name
+          </div>
+        </div>
+      </nav>
+    </div>
+   
+<section class="sec">
+    <div class="row">
+       <div class="col s12 m12"><h6 class="StyleHd1 center-align"> Welcome to</h6></div>
+       <div class="col s12 m12">
+          <div class="FieldFlex">
+            <div class="fieldflex01">
+                <h4 class="bold">Bride name</h4>
+                <input id="bridenm" type="text" class="validate">
+            </div>
+            <div class="fieldflex01"><h4 class="SpaceLR18"> &amp; </h4></div>
+            <div class="fieldflex01">
+              <h4 class="bold">Groom name</h4>
+              <input id="Groomnm" type="text" class="validate">
+            </div>            
+          </div>
+       </div>
+       <div class="row">
+          <div class="col s12 m8 offset-m2">
+              <div class="file-field input-field col s12 m6 offset-m3">
+                  <div class="btn">
+                    <span>Cover Photo</span>
+                    <input type="file">
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Upload cover photo">
+                  </div>
+                  <p class="center-align" >Recommended Photo size: Max 1920x900px, 5MB</p>
+                </div>
+          </div>
+       </div>
+
+    </div>
+
+
+
+
+
+    <div class="row Gap26">
+        <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea12" class="materialize-textarea"></textarea>
+                        <label for="textarea12">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                          <input class="with-gap" name="group3" type="radio" checked="">
+                          <span>Everyone</span>
+                      </label>
+                      <label>
+                          <input class="with-gap" name="group3" type="radio" checked="">
+                          <span>Specific members</span>
+                      </label>
+                      <label>
+                          <input class="with-gap" name="group3" type="radio" checked="">
+                          <span>Private</span>
+                      </label>
+                      <p class="bold">Allow comments</p>
+                          <label>
+                              <input class="with-gap" name="group3" type="radio" checked="">
+                              <span>Yes, sure</span>
+                          </label>
+                          <label>
+                              <input class="with-gap" name="group3" type="radio" checked="">
+                              <span>No, Thanks</span>
+                          </label>
+                          <p class="bold">Add this photo in competition Page :</p>
+                              <label>
+                                  <input class="with-gap" name="group3" type="radio" checked="">
+                                  <span>Yes, sure</span>
+                              </label>
+                              <label>
+                                  <input class="with-gap" name="group3" type="radio" checked="">
+                                  <span>No, Thanks</span>
+                              </label>
+                  </div>
+              </div>  
+         </div>
+         <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea3" class="materialize-textarea"></textarea>
+                        <label for="textarea3">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                            <input class="with-gap" type="radio">
+                            <span>Everyone</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>Specific members</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Private</span>
+                        </label>
+                        <p class="bold">Allow comments</p>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio"">
+                            <span>No, Thanks</span>
+                        </label>
+                        <p class="bold">Add this photo in competition Page :</p>
+                        <label>
+                            <input class="with-gap" type="radio">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>No, Thanks</span>
+                        </label>
+                    </div>
+              </div>  
+         </div>
+         <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea4" class="materialize-textarea"></textarea>
+                        <label for="textarea4">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                            <input class="with-gap" type="radio">
+                            <span>Everyone</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>Specific members</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Private</span>
+                        </label>
+                        <p class="bold">Allow comments</p>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio"">
+                            <span>No, Thanks</span>
+                        </label>
+                        <p class="bold">Add this photo in competition Page :</p>
+                        <label>
+                            <input class="with-gap" type="radio">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>No, Thanks</span>
+                        </label>
+                    </div>
+              </div>  
+         </div>
+    </div>
+
+
+
+
+    <div class="row Gap26">
+        <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea5" class="materialize-textarea"></textarea>
+                        <label for="textarea5">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                            <input class="with-gap" type="radio">
+                            <span>Everyone</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>Specific members</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Private</span>
+                        </label>
+                        <p class="bold">Allow comments</p>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio"">
+                            <span>No, Thanks</span>
+                        </label>
+                        <p class="bold">Add this photo in competition Page :</p>
+                        <label>
+                            <input class="with-gap" type="radio">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>No, Thanks</span>
+                        </label>
+                    </div>
+              </div>  
+        </div>
+        <div class="col s12 m6 l2 xl2">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea6" class="materialize-textarea"></textarea>
+                        <label for="textarea6">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                            <input class="with-gap" type="radio">
+                            <span>Everyone</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>Specific members</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Private</span>
+                        </label>
+                        <p class="bold">Allow comments</p>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio"">
+                            <span>No, Thanks</span>
+                        </label>
+                        <p class="bold">Add this photo in competition Page :</p>
+                        <label>
+                            <input class="with-gap" type="radio">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>No, Thanks</span>
+                        </label>
+                    </div>
+              </div>  
+        </div>
+        <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea7" class="materialize-textarea"></textarea>
+                        <label for="textarea7">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                            <input class="with-gap" type="radio">
+                            <span>Everyone</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>Specific members</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Private</span>
+                        </label>
+                        <p class="bold">Allow comments</p>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio"">
+                            <span>No, Thanks</span>
+                        </label>
+                        <p class="bold">Add this photo in competition Page :</p>
+                        <label>
+                            <input class="with-gap" type="radio">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>No, Thanks</span>
+                        </label>
+                    </div>
+              </div>  
+        </div>
+        <div class="col s12 m6 l2 xl2">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea8" class="materialize-textarea"></textarea>
+                        <label for="textarea8">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                            <input class="with-gap" type="radio">
+                            <span>Everyone</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>Specific members</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Private</span>
+                        </label>
+                        <p class="bold">Allow comments</p>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio"">
+                            <span>No, Thanks</span>
+                        </label>
+                        <p class="bold">Add this photo in competition Page :</p>
+                        <label>
+                            <input class="with-gap" type="radio">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>No, Thanks</span>
+                        </label>
+                    </div>
+              </div>  
+        </div>
+    </div>
+
+
+
+    <div class="row Gap26">
+        <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea9" class="materialize-textarea"></textarea>
+                        <label for="textarea9">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                            <input class="with-gap" type="radio">
+                            <span>Everyone</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>Specific members</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Private</span>
+                        </label>
+                        <p class="bold">Allow comments</p>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio"">
+                            <span>No, Thanks</span>
+                        </label>
+                        <p class="bold">Add this photo in competition Page :</p>
+                        <label>
+                            <input class="with-gap" type="radio">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>No, Thanks</span>
+                        </label>
+                    </div>
+              </div>  
+        </div>
+        <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea10" class="materialize-textarea"></textarea>
+                        <label for="textarea10">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                            <input class="with-gap" type="radio">
+                            <span>Everyone</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>Specific members</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Private</span>
+                        </label>
+                        <p class="bold">Allow comments</p>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio"">
+                            <span>No, Thanks</span>
+                        </label>
+                        <p class="bold">Add this photo in competition Page :</p>
+                        <label>
+                            <input class="with-gap" type="radio">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>No, Thanks</span>
+                        </label>
+                    </div>
+              </div>  
+        </div>
+        <div class="col s12 m6 l4 xl4">
+            <div class="card">
+                <div class="card-content"> 
+                    <h4>Your best photo</h4>
+                    <div class="input-field">
+                        <textarea id="textarea11" class="materialize-textarea"></textarea>
+                        <label for="textarea11">Add your caption</label>                   
+                        <div class="justify-Cont-end"><label for="">Not More than 20 words</label></div>
+                    </div> 
+                    <div class="file-field input-field">
+                        <div class="btn">
+                          <span>Photo</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                          <label for="autocomplete-input">Upload photo 1</label>
+                        </div>
+                      </div>                   
+                <span class="card-title activator grey-text text-darken-4  PrimeColr1">Photo Options<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <p class="bold">Photo Visibility</p>
+                    <label>
+                            <input class="with-gap" type="radio">
+                            <span>Everyone</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>Specific members</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Private</span>
+                        </label>
+                        <p class="bold">Allow comments</p>
+                        <label>
+                            <input class="with-gap" type="radio" checked="">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio"">
+                            <span>No, Thanks</span>
+                        </label>
+                        <p class="bold">Add this photo in competition Page :</p>
+                        <label>
+                            <input class="with-gap" type="radio">
+                            <span>Yes, sure</span>
+                        </label>
+                        <label>
+                            <input class="with-gap"  type="radio">
+                            <span>No, Thanks</span>
+                        </label>
+                    </div>
+              </div>  
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+   <div class="container">
+     <div class="row">
+       <div class="col s12 m12">
+          <ul class="collapsible">
+              <li>
+                <div class="collapsible-header"><i class="material-icons dp48">add_box</i><span class="bold">Interesting event of your wedding?</span></div>
+                <div class="collapsible-body">
+                    <h4>Yes, we have a story</h4>
+                    <div class="input-field">
+                        <textarea id="textarea2" class="materialize-textarea" data-length="120" style="height: 46px;"></textarea>
+                        <label for="last_name">Your story</label>
+                      </div>
+                      <div class="justify-Cont-end"><label for="autocomplete-input">Please, try to wrapup in 500 words</label></div>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">add_box</i><span class="bold">Do you want share more photos or videos?</span></div>
+                <div class="collapsible-body">
+                    <div class="row">
+                        <div class="col sm12 m6">
+                           <div class="card">
+                               <div class="card-content">
+                                 <h4>Do you want share more Photos?</h4>
+                                 <div class="justify-cont-bet">
+                                    <div>
+                                      <p class="bold">10 More Photos</p>
+                                      <h4>$10</h4>
+                                     </div>
+                                    <div><img src="img/locked.png" alt=""></div>                  
+                                 </div>                            
+                               </div>
+                               <div class="card-action">
+                                 <div class="justify-Cont-end"><a href="#" class="waves-effect waves-light btn-small disabled">Yes</a></div>          
+                               </div>
+                             </div>
+                        </div>
+                        <div class="col sm12 m6">
+                           <div class="card">
+                               <div class="card-content">
+                                 <h4>Do you want share more videos?</h4>
+                                 <div class="justify-cont-bet">
+                                    <div>
+                                      <p class="bold">4 More Videos</p>
+                                      <h4>$10</h4>
+                                     </div>
+                                    <div><img src="img/locked.png" alt=""></div>                  
+                                 </div>                            
+                               </div>
+                               <div class="card-action">
+                                 <div class="justify-Cont-end"><a href="#" class="waves-effect waves-light btn-small" disabled>Yes</a> </div>          
+                               </div>
+                             </div>
+                        </div>
+                     </div>
+                </div>
+              </li>
+            </ul>
+       </div>
+     </div>
+     <div class="row">
+            <div class="Gap50 center-align"><a href="MyAlbum.html" class="waves-effect waves-light btn-large">You have done</a></div>
+          </div>
+   </div>
+</section>
+
+
+
+
+    <section class="sec">
+        <div class="container">
+          <div class="row">
+             <div class="col s12">
+               <h5 class="center-align bold">For those who are planning to tie the knot</h5>
+               <hr class="Gap26">
+                  <div class="Links">
+                    <ul>
+                      <li><a href="">Photographers</a></li>
+                      <li><a href="">Makeup Artist</a></li>
+                      <li><a href="">Wedding Dress Ideas</a></li>
+                      <li><a href="">Wedding Event Planners</a></li>
+                    </ul>
+                  </div>
+             </div>
+          </div>
+        </div>
+    </section>
+
+    <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="img/33.jpg">
+          </div>
+          <div class="avatar">
+              <div class="addpro"><a href=""><img src="img/avataradd.png"></a></div>
+              <a href="#user"><img class="circle" src="img/4.jpg"></a>
+            </div>
+          <a href="#name"><span class="white-text name">John Doe</span></a>
+          <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+        </div>
+      </li>
+      <li><a href="userProfileSettings.html">Profile settings</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="waves-effect" href="#!">Invitation card</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="waves-effect" href="#!">Create Album</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="waves-effect" href="servicesProvider.html">Want to be services provider</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="waves-effect" href="howitworks.html">How it works</a></li>
+      <li><a class="waves-effect" href="help.html">Help</a></li>
+      <li><a class="waves-effect" href="termscondition.html">Terms conditions</a></li>        
+      <li><a class="waves-effect" href="index.html">Logout</a></li>
+      </ul>     
+ 
+
+    <footer>      
+        <div class="center-align">@Bride & Groom</div>
+     </footer>
+      <!-- JavaScript at end of body for optimized loading -->   
+     
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>       
+      <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+      <script>
+          $(document).ready(function(){
+            $('.sidenav').sidenav();
+          });
+          $(".dropdown-trigger").dropdown();   
+      </script>  
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.collapsible');
+          var instances = M.Collapsible.init(elems, options);
+        });
+      
+        // Or with jQuery
+      
+        $(document).ready(function(){
+          $('.collapsible').collapsible();
+        });
+          </script>
+
+    </body>
+  </html>
